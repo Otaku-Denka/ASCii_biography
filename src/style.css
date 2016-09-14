@@ -1,0 +1,29 @@
+body {
+	font-family: 'Andale Mono', Monospace;
+	background:white;
+	color: white;
+	font-size: 14px;
+	font-weight: 100;
+	padding: 5px;
+}
+
+.textfield {
+	background-color: black;
+	width: 450px;
+	height: 450px;
+	color: white;
+}
+
+.textline {
+	overflow: hidden;
+  width: 0;
+  white-space: nowrap;
+}
+@-webkit-keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.cursor {
+  animation: blink .5s step-end infinite alternate;
+  border-right: 1px solid white;
+}
